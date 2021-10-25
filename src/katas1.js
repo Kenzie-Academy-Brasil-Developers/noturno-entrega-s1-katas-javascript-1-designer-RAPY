@@ -13,7 +13,7 @@ function oneThroughTwenty(){
 
 function evensToTwenty() {
   let meuRetorno = [];
-    for (let numero=1; numero <= 20; numero=numero+2)
+    for (let numero=1; numero <= 20; numero+=2)
       meuRetorno.push(numero)
       return meuRetorno; 
 }
@@ -22,7 +22,7 @@ function evensToTwenty() {
 
 function oddsToTwenty() {
   let meuRetorno = [];   
-    for (let numero=1; numero <= 20; numero=numero+2)
+    for (let numero=1; numero <= 20; numero+=2)
       meuRetorno.push(numero)
       return meuRetorno;
 }
@@ -32,7 +32,7 @@ function oddsToTwenty() {
 
 function multiplesOfFive() {
   let meuRetorno = [];   
-    for (let numero=5; numero <= 100; numero=numero+5)
+    for (let numero=5; numero <= 100; numero+=5)
       meuRetorno.push(numero)
       return meuRetorno;
 }
@@ -42,7 +42,7 @@ function multiplesOfFive() {
 
 function squareNumbers() {
   let meuRetorno = [];
-  for (let numero=1; numero*numero <= 100; numero=numero+1)
+  for (let numero=1; numero*numero <= 100; numero+=1)
       meuRetorno.push(numero*numero)
       return meuRetorno;
 }
@@ -51,7 +51,7 @@ console.log(squareNumbers());
 
 function countingBackwards() {
   let meuRetorno = []; 
-  for (let numero=20; numero > 0; numero=numero-1)
+  for (let numero=20; numero > 0; numero-=1)
     meuRetorno.push(numero)
     return meuRetorno;
 }
@@ -61,7 +61,7 @@ console.log(countingBackwards());
 
 function evenNumbersBackwards() {
   let meuRetorno = [];    
-  for (let numero=20; numero > 0; numero=numero-2)
+  for (let numero=20; numero > 0; numero-=2)
       meuRetorno.push(numero)
       return meuRetorno;
   }
@@ -88,7 +88,7 @@ function multiplesOfFiveBackwards() {
 
 function squareNumbersBackwards() {
   let meuRetorno = [];  
-  for (let numero=100; numero*numero >= 1; numero=numero-1)
+  for (let numero=100; numero*numero >= 1; numero-=1)
       if (numero*numero <=100)
       meuRetorno.push(numero*numero)
       return meuRetorno;
