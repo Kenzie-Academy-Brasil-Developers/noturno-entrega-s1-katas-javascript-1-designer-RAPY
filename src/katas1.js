@@ -13,7 +13,7 @@ function oneThroughTwenty(){
 
 function evensToTwenty() {
   let meuRetorno = [];
-    for (let numero=0; numero <= 20; numero=numero+2)
+    for (let numero=1; numero <= 20; numero=numero+2)
       meuRetorno.push(numero)
       return meuRetorno; 
 }
